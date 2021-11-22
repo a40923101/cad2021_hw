@@ -98,7 +98,27 @@ var winkVideoData = {
 <p><span>下載 <strong>Fossil</strong></span></p>
 <p><img alt="" height="281" src="/images/45.png" width="500"/></p>
 <p><span><strong>fossil </strong>解壓縮到y槽</span></p>
-<p><img alt="" height="255" src="/images/46.png" width="500"/></p><h1>run</h1>
+<p><img alt="" height="255" src="/images/46.png" width="500"/></p>
+<p>建立資料夾</p>
+<p><span style="background-color: #ffff99;"><strong>mkdir fossil</strong></span></p>
+<p><span style="background-color: #ffff99;"><strong>cd fossil</strong></span></p>
+<p>打上 <span style="background-color: #ffff99;"><strong>fossil clone https://40923101@fossil.kmol.info/u/40923101 40923101.fossil</strong></span></p>
+<p><b>打上密碼，問你要不要記住密碼</b><b><span> </span></b><span style="background-color: #ffff99;"><b>y</b></span></p>
+<p><span>查看fossil資料夾裡面有沒有 <strong>40923101.fossil</strong></span></p>
+<p>再次建立資料夾</p>
+<p><span style="background-color: #ffff99;"><strong>mkdir wd</strong></span></p>
+<p><span style="background-color: #ffff99;"><strong>cd wd</strong></span></p>
+<p><span style="background-color: #ffff99;"><strong>mkdir 40923101</strong></span></p>
+<p><span style="background-color: #ffff99;"><strong>cd 40923101</strong></span></p>
+<p>然後<strong><span> </span></strong><span style="background-color: #ffff99;"><strong>fossil open ./../../40923101.fossil</strong></span></p>
+<p>查看40923101資料夾裡面有沒有 <strong>FOSSIL</strong></p>
+<p><span style="background-color: #ffff99;"><strong>cd ..</strong></span><span> </span>退回wd</p>
+<p><span style="background-color: #ffff99;"><strong>git clone --recurse-submodules https://github.com/40923101/wcm2021.git</strong></span></p>
+<p><strong><span>複製wcm2021裡的資料到40923101資料夾內</span></strong></p>
+<p><span style="background-color: #ffff99;"><strong>fossil add .</strong></span></p>
+<p><span style="background-color: #ffff99;"><strong>fossil commit -m "inital add"</strong></span></p>
+<p>問要下載全部嗎<span> </span><span style="background-color: #ffff99;"><strong>a</strong></span></p>
+<p><span>完成後就可以查看倉儲 https://fossil.kmol.info/u/40923101/doc/trunk/index.html</span></p><h1>run</h1>
 <p>先複製老師給的程式碼</p>
 <p><img alt="" height="281" src="/images/33.png" width="500"/></p>
 <p>點開Source code</p>
